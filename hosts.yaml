@@ -1,0 +1,12 @@
+all:
+  children:
+    control:
+      hosts:
+        10.100.50.1:
+          node_ip: "10.100.50.1"
+    worker:
+      hosts:
+        10.100.50.2:
+          node_ip: "10.100.50.2"
+        10.100.50.3:
+          node_ip: "10.100.50.3"
